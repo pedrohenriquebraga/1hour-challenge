@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+section {
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+section input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+section button {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.151);
+}
+
+main .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 70%;
+    min-width: 300px;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+}
+
+main .book img {
+    width: 20%;
+}
+main .book .title {
+    font-size: 22px;
+    text-align: center;
+}
+
+main .book .author {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+main .book .desc {
+    text-align: justify;
+}
